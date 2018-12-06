@@ -11,19 +11,21 @@ import Button from '@material-ui/core/Button';
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    height: '60vh',
+    height: '70vh',
     backgroundImage: 'url('+ BackgroundHeader+')', backgroundSize: 'cover', backgroundPosition: 'center top',
-    padding: '10vw',
-    [theme.breakpoints.up("md")]: {
-    height: '90vh',
-    padding: '15vw',
+    padding: '5vw',
+    [theme.breakpoints.up("sm")]: {
+    height: '80vh'
     },
+    [theme.breakpoints.up("md")]: {
+    height: '90vh'
+    }
   },
   container: {
     backgroundColor: 'white',
     opacity: '.9',
     textAlign: 'center',
-    height: '40vh',
+    height: '30vh',
     padding: '1rem',
     // borderRadius: '25px'
   }

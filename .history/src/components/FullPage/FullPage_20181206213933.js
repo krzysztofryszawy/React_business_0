@@ -13,11 +13,15 @@ const styles = theme => ({
     flexGrow: 1,
     height: '60vh',
     backgroundImage: 'url('+ BackgroundHeader+')', backgroundSize: 'cover', backgroundPosition: 'center top',
-    padding: '10vw',
-    [theme.breakpoints.up("md")]: {
-    height: '90vh',
+    padding: '5vw',
+    [theme.breakpoints.up("sm")]: {
+    height: '80vh',
     padding: '15vw',
     },
+    [theme.breakpoints.up("md")]: {
+    height: '90vh',
+    padding: '25vw',
+    }
   },
   container: {
     backgroundColor: 'white',

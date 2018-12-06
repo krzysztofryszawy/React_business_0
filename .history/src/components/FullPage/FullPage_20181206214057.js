@@ -17,7 +17,7 @@ const styles = theme => ({
     [theme.breakpoints.up("md")]: {
     height: '90vh',
     padding: '15vw',
-    },
+    }
   },
   container: {
     backgroundColor: 'white',

@@ -34,7 +34,7 @@ const FullPage = (props) => {
 
   return (
     <React.Fragment>
-    <div className={classes.root}>
+    <Paper className={classes.root}>
       <Grid className={classes.container} container direction="row" justify="center" alignItems="center" >
             <Grid item sm={12}>
               <Spa/>
@@ -57,7 +57,7 @@ const FullPage = (props) => {
               </Button>
             </Grid>
       </Grid>
-    </div>
+    </Paper>
     </React.Fragment>
   );
 }

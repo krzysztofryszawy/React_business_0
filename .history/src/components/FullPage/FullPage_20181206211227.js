@@ -6,26 +6,27 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Spa from '@material-ui/icons/Spa';
-import Button from '@material-ui/core/Button';
 
 const styles = theme => ({
   root: {
     flexGrow: 1,
     height: '60vh',
     backgroundImage: 'url('+ BackgroundHeader+')', backgroundSize: 'cover', backgroundPosition: 'center top',
-    padding: '10vw',
-    [theme.breakpoints.up("md")]: {
-    height: '90vh',
-    padding: '15vw',
+    padding: '22vw',
+    [theme.breakpoints.up("sm")]: {
+    height: '80vh'
     },
+    [theme.breakpoints.up("md")]: {
+    height: '100vh'
+    }
   },
   container: {
     backgroundColor: 'white',
     opacity: '.9',
     textAlign: 'center',
-    height: '40vh',
+    height: '30vh',
     padding: '1rem',
-    // borderRadius: '25px'
+    
   }
 });
 
@@ -50,11 +51,6 @@ const FullPage = (props) => {
               <Typography variant="h5" component="h5">
                 Where the ART of color is the ultimate expression!
               </Typography>
-            </Grid>
-            <Grid item sm={12}>
-              <Button variant="outlined" className={classes.button}>
-                Contact
-              </Button>
             </Grid>
       </Grid>
     </div>

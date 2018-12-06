@@ -18,6 +18,7 @@ const styles = theme => ({
     height: '90vh',
     padding: '15vw',
     },
+    margin: '1px solid black',
   },
   container: {
     backgroundColor: 'white',

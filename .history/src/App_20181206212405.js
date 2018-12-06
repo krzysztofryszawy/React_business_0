@@ -7,7 +7,7 @@ import Divider from './components/Divider/Divider'
 import ImageLeft from './components/ImageLeft/ImageLeft'
 import ImageRight from './components/ImageRight/ImageRight'
 import TabsWrappedLabel from './components/TabsWrappedLabel/TabsWrappedLabel'
-import Footer from './components/Footer/Footer'
+import Footer from './componentsss/Footer/Footer'
 
 // '#b89a6a'
 

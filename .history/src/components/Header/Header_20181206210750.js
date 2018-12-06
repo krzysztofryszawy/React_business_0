@@ -29,7 +29,7 @@ const styles = theme => ({
     marginTop: theme.spacing.unit * 10,
     opacity: '.8',
     '&:hover': {
-      backgroundColor: 'lavenderblush', 
+      backgroundColor: 'thistle', 
     },
   }
 });

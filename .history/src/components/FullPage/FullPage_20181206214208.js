@@ -17,11 +17,11 @@ const styles = theme => ({
     [theme.breakpoints.up("md")]: {
     height: '90vh',
     padding: '15vw',
-    },
+    }
   },
   container: {
     backgroundColor: 'white',
-    opacity: '.9',
+    opacity: '.6',
     textAlign: 'center',
     height: '40vh',
     padding: '1rem',

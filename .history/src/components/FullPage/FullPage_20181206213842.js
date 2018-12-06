@@ -13,11 +13,13 @@ const styles = theme => ({
     flexGrow: 1,
     height: '60vh',
     backgroundImage: 'url('+ BackgroundHeader+')', backgroundSize: 'cover', backgroundPosition: 'center top',
-    padding: '10vw',
-    [theme.breakpoints.up("md")]: {
-    height: '90vh',
-    padding: '15vw',
+    padding: '5vw',
+    [theme.breakpoints.up("sm")]: {
+    height: '80vh'
     },
+    [theme.breakpoints.up("md")]: {
+    height: '90vh'
+    }
   },
   container: {
     backgroundColor: 'white',
@@ -25,6 +27,9 @@ const styles = theme => ({
     textAlign: 'center',
     height: '40vh',
     padding: '1rem',
+    [theme.breakpoints.up("md")]: {
+    padding: '15vw',
+    }
     // borderRadius: '25px'
   }
 });

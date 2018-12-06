@@ -13,19 +13,21 @@ const styles = theme => ({
     flexGrow: 1,
     height: '60vh',
     backgroundImage: 'url('+ BackgroundHeader+')', backgroundSize: 'cover', backgroundPosition: 'center top',
-    padding: '10vw',
-    [theme.breakpoints.up("md")]: {
-    height: '90vh',
-    padding: '15vw',
+    padding: '22vw',
+    [theme.breakpoints.up("sm")]: {
+    height: '80vh'
     },
+    [theme.breakpoints.up("md")]: {
+    height: '100vh'
+    }
   },
   container: {
     backgroundColor: 'white',
     opacity: '.9',
     textAlign: 'center',
-    height: '40vh',
+    height: '30vh',
     padding: '1rem',
-    // borderRadius: '25px'
+    borderRadius: '25px'
   }
 });
 

@@ -17,7 +17,7 @@ const styles = theme => ({
     [theme.breakpoints.up("md")]: {
     height: '90vh',
     padding: '15vw',
-    },
+    }
   },
   container: {
     backgroundColor: 'white',
@@ -35,7 +35,7 @@ const FullPage = (props) => {
   return (
     <React.Fragment>
     <div className={classes.root}>
-      <Grid className={classes.container} container direction="row" justify="center" alignItems="center" >
+      <Grid className={classes.container} container direction="column" justify="center" alignItems="center" >
             <Grid item sm={12}>
               <Spa/>
             </Grid>
