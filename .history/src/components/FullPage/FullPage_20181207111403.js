@@ -23,7 +23,6 @@ const styles = theme => ({
     backgroundColor: 'white',
     opacity: '.9',
     textAlign: 'center',
-    height: '40vh',
     padding: '1rem',
     // borderRadius: '25px'
   }
@@ -37,7 +36,7 @@ const FullPage = (props) => {
     <div className={classes.root}>
       <Grid className={classes.container} container direction="row" justify="center" alignItems="center" >
             <Grid item sm={12}>
-              <Spa/>
+              <Spa style={{ fontSize: 50, color: '#b89a6a' }}/>
             </Grid>
 
             <Grid item sm={12}>
