@@ -36,7 +36,7 @@ const styles = theme => ({
     marginLeft: theme.spacing.unit * 3,
     marginRight: theme.spacing.unit * 3,
     [theme.breakpoints.up(900 + theme.spacing.unit * 3 * 2)]: {
-      width: '80vw',
+      width: '900px',
       marginLeft: 'auto',
       marginRight: 'auto',
     },
@@ -73,13 +73,13 @@ function Footer(props) {
       <footer className={classNames(classes.footer, classes.layout)}>
         <Grid container spacing={0} justify="center">
           {footers.map(footer => (
-            <Grid item xs={5} key={footer.title}>
+            <Grid item xs={3} sm={3} key={footer.title}>
               <Typography variant="h6" color="textPrimary" gutterBottom>
                 {footer.title}
               </Typography>
               {footer.description.map(item => (
                 <Typography key={item.name} variant="subtitle1" color="textSecondary">
-                  <Button  component={Link} to={`/${item.link}`}>{item.name}</Button>
+                  <Button component={Link} to={`/${item.link}`}>{item.name}</Button>
                 </Typography>
               ))}
             </Grid>

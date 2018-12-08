@@ -57,11 +57,11 @@ const styles = theme => ({
 const footers = [
   {
     title: 'Company',
-    description: [{name: 'Our offer', link: ''}, {name: 'Hair', link: 'Hair'}, {name: 'SPA', link: 'SPA'}],
+    description: [{name: 'Out offer', link: ''}, {name: 'Hair', link: 'Hair'}, {name: 'SPA', link: 'SPA'}],
   },
   {
     title: 'Features',
-    description: [{name:'Cool stuff', link:''}, {name: 'Random feature', link: ''}, {name: 'Team feature', link: ''}],
+    description: [{name:'Cool stuff', link:'Teodor'}, {name: 'Random feature', link: ''}, {name: 'Team feature', link: ''}],
   },
 ];
 
@@ -71,15 +71,15 @@ function Footer(props) {
   return (
     <React.Fragment>
       <footer className={classNames(classes.footer, classes.layout)}>
-        <Grid container spacing={0} justify="center">
+        <Grid container spacing={32} justify="center">
           {footers.map(footer => (
-            <Grid item xs={5} key={footer.title}>
+            <Grid item xs key={footer.title}>
               <Typography variant="h6" color="textPrimary" gutterBottom>
                 {footer.title}
               </Typography>
               {footer.description.map(item => (
                 <Typography key={item.name} variant="subtitle1" color="textSecondary">
-                  <Button  component={Link} to={`/${item.link}`}>{item.name}</Button>
+                  <Button component={Link} to={`/${item.link}`}>{item.name}</Button>
                 </Typography>
               ))}
             </Grid>

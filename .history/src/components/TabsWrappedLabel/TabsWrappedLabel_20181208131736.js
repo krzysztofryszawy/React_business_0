@@ -10,9 +10,9 @@ import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 
 import Divider from '../Divider/Divider'
-import TabOne from './TabOne/TabOne'
-import TabTwo from './TabTwo/TabTwo'
-import TabThree from './TabThree/TabThree'
+import TabOne from '../TabOne/TabOne'
+import TabTwo from '../TabTwo/TabTwo'
+import TabThree from '../TabThree/TabThree'
 
 function TabContainer(props) {
   return (

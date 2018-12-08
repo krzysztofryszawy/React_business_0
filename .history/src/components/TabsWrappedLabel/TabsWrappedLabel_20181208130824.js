@@ -10,9 +10,9 @@ import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 
 import Divider from '../Divider/Divider'
-import TabOne from './TabOne/TabOne'
-import TabTwo from './TabTwo/TabTwo'
-import TabThree from './TabThree/TabThree'
+import TabOne from '../TabOne/TabOne'
+import TabTwo from '../TabTwo/TabTwo'
+import TabThree from '../TabThree/TabThree'
 
 function TabContainer(props) {
   return (
@@ -31,7 +31,7 @@ const styles = theme => ({
 
 class TabsWrappedLabel extends React.Component {
   state = {
-    value: '0',
+    value: 'one',
   };
 
   handleChange = (event, value) => {
@@ -47,15 +47,10 @@ class TabsWrappedLabel extends React.Component {
         
         <AppBar position="static" color="default">
           <Tabs
-            onChange={this.handleChange}
-            value={value}
-            fullWidth
-            indicatorColor="primary"
-            textColor="primary"
-          >
-            <Tab value='0' label="Our offer" component={Link} to="/" />
-            <Tab value='1' label="Hair" component={Link} to="/Hair" />
-            <Tab value='2' label="SPA" component={Link} to="/SPA" />
+            fullWidth>
+            <Tab label="Our offer" component={Link} to="/" />
+            <Tab label="Hair" component={Link} to="/Hair" />
+            <Tab label="SPA" component={Link} to="/SPA" />
           </Tabs>
         </AppBar>
         <Route path='/' exact component={TabOne} />

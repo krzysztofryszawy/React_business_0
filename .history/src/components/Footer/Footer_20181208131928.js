@@ -79,7 +79,7 @@ function Footer(props) {
               </Typography>
               {footer.description.map(item => (
                 <Typography key={item.name} variant="subtitle1" color="textSecondary">
-                  <Button  component={Link} to={`/${item.link}`}>{item.name}</Button>
+                  <Button component={Link} to={`/${item.link}`}>{item.name}</Button>
                 </Typography>
               ))}
             </Grid>

@@ -45,7 +45,7 @@ const Divider = (props) => {
               Get to Know Us
             </Typography>
             <Typography component="p">
-            Promising Excellence in Everything We Do Since 1982, CASSIOPEIA SALON & SPA has grown to be one of the most prominent spots in the Kraków, guaranteeing quality and professionalism to all of our customers. 
+            Promising Excellence in Everything We Do Since 1982, CASSIOPEIA SALON & SPA has grown to be one of the most prominent spots in the Norco, guaranteeing quality and professionalism to all of our customers. 
             We will continue to be one of the leading professional beauty salons because of the quality service and the personal touch that we provide to each and every customer. 
             </Typography>
           </div>
