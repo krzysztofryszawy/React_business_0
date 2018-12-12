@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "ae570a0d3a23cf8de221019286eaea4d",
-    "url": "/React_business_0/static/media/item4.ae570a0d.jpg"
+    "revision": "ffc83c177b435870157e3643d1f58103",
+    "url": "/React_business_0/static/media/item5.ffc83c17.jpg"
   },
   {
-    "revision": "2fa6c54b5d0e51706f20",
-    "url": "/React_business_0/static/css/main.b7f0074a.chunk.css"
+    "revision": "60e9506df2345e2d27dc",
+    "url": "/React_business_0/static/css/main.6f8e0805.chunk.css"
   },
   {
-    "revision": "1a42a1c67ce1717b76fe",
-    "url": "/React_business_0/static/js/1.1a42a1c6.chunk.js"
+    "revision": "c015ba8fab643a3dbc84",
+    "url": "/React_business_0/static/js/1.c015ba8f.chunk.js"
   },
   {
     "revision": "2eb819f6433d9d34ef24",
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/React_business_0/static/media/item3.73382eaa.jpg"
   },
   {
-    "revision": "2fa6c54b5d0e51706f20",
-    "url": "/React_business_0/static/js/main.2fa6c54b.chunk.js"
+    "revision": "ae570a0d3a23cf8de221019286eaea4d",
+    "url": "/React_business_0/static/media/item4.ae570a0d.jpg"
   },
   {
-    "revision": "ffc83c177b435870157e3643d1f58103",
-    "url": "/React_business_0/static/media/item5.ffc83c17.jpg"
+    "revision": "60e9506df2345e2d27dc",
+    "url": "/React_business_0/static/js/main.60e9506d.chunk.js"
   },
   {
     "revision": "31cea9dfb3fe20427f969d9a8214dcd4",
@@ -68,11 +68,15 @@ self.__precacheManifest = [
     "url": "/React_business_0/static/media/photo-1501644898242-cfea317d7faf.7af51f4b.jpg"
   },
   {
+    "revision": "e899869dca836293001fab7d83bb6fcd",
+    "url": "/React_business_0/static/media/photo-1510115950941-b7c06c744133.e899869d.jpg"
+  },
+  {
     "revision": "b1c76f05ceab461f6d3a8e67fc411adf",
     "url": "/React_business_0/static/media/photo-1523654881152-1f1f16389dc8.b1c76f05.jpg"
   },
   {
-    "revision": "a9397a3dbd67b1318ed12b662153f8ec",
+    "revision": "1a77b2eef8c14909c3fb91d8a6a05041",
     "url": "/React_business_0/index.html"
   }
 ];
