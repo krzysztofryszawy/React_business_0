@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "7c36bcf7eed7e0c97044b1d2fd80a148",
-    "url": "/React_business_0/static/media/item2.7c36bcf7.jpg"
+    "revision": "ae570a0d3a23cf8de221019286eaea4d",
+    "url": "/React_business_0/static/media/item4.ae570a0d.jpg"
   },
   {
-    "revision": "2b210fd1aa90bfe480aa",
-    "url": "/React_business_0/static/css/main.6f8e0805.chunk.css"
+    "revision": "ae987592593500499561",
+    "url": "/React_business_0/static/css/main.b7f0074a.chunk.css"
   },
   {
-    "revision": "46587425ff83b01cc809",
-    "url": "/React_business_0/static/js/1.46587425.chunk.js"
+    "revision": "1a42a1c67ce1717b76fe",
+    "url": "/React_business_0/static/js/1.1a42a1c6.chunk.js"
   },
   {
     "revision": "2eb819f6433d9d34ef24",
@@ -28,16 +28,16 @@ self.__precacheManifest = [
     "url": "/React_business_0/static/media/item1.2515efda.jpg"
   },
   {
-    "revision": "2b210fd1aa90bfe480aa",
-    "url": "/React_business_0/static/js/main.2b210fd1.chunk.js"
+    "revision": "7c36bcf7eed7e0c97044b1d2fd80a148",
+    "url": "/React_business_0/static/media/item2.7c36bcf7.jpg"
   },
   {
     "revision": "73382eaa4f6dc1b0c285670bfa28e7aa",
     "url": "/React_business_0/static/media/item3.73382eaa.jpg"
   },
   {
-    "revision": "ae570a0d3a23cf8de221019286eaea4d",
-    "url": "/React_business_0/static/media/item4.ae570a0d.jpg"
+    "revision": "ae987592593500499561",
+    "url": "/React_business_0/static/js/main.ae987592.chunk.js"
   },
   {
     "revision": "ffc83c177b435870157e3643d1f58103",
@@ -56,7 +56,23 @@ self.__precacheManifest = [
     "url": "/React_business_0/static/media/item8.f38d95a3.jpg"
   },
   {
-    "revision": "4c2e4361df4fd7303dd5e2212e2c9768",
+    "revision": "daa7d691b9eec4d844be6c4dbb13f528",
+    "url": "/React_business_0/static/media/photo-1487412947147-5cebf100ffc2.daa7d691.jpg"
+  },
+  {
+    "revision": "8a6cdbf2332cf5f775e950408a0ce2e9",
+    "url": "/React_business_0/static/media/photo-1500350124139-04a90e4ce9f6.8a6cdbf2.jpg"
+  },
+  {
+    "revision": "7af51f4bf5721cc9dfb947fec7743600",
+    "url": "/React_business_0/static/media/photo-1501644898242-cfea317d7faf.7af51f4b.jpg"
+  },
+  {
+    "revision": "b1c76f05ceab461f6d3a8e67fc411adf",
+    "url": "/React_business_0/static/media/photo-1523654881152-1f1f16389dc8.b1c76f05.jpg"
+  },
+  {
+    "revision": "74cc4a86e2d2a9f9195a1d252baecf03",
     "url": "/React_business_0/index.html"
   }
 ];
