@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "ffc83c177b435870157e3643d1f58103",
-    "url": "/React_business_0/static/media/item5.ffc83c17.jpg"
+    "revision": "73382eaa4f6dc1b0c285670bfa28e7aa",
+    "url": "/React_business_0/static/media/item3.73382eaa.jpg"
   },
   {
-    "revision": "60e9506df2345e2d27dc",
-    "url": "/React_business_0/static/css/main.6f8e0805.chunk.css"
+    "revision": "f5dd595848e7d2668c9d",
+    "url": "/React_business_0/static/css/main.24f25bf5.chunk.css"
   },
   {
-    "revision": "c015ba8fab643a3dbc84",
-    "url": "/React_business_0/static/js/1.c015ba8f.chunk.js"
+    "revision": "be71b8004cc28e290f1f",
+    "url": "/React_business_0/static/js/1.be71b800.chunk.js"
   },
   {
     "revision": "2eb819f6433d9d34ef24",
@@ -24,6 +24,14 @@ self.__precacheManifest = [
     "url": "/React_business_0/static/media/photo-1515172371186-85d50c9f1fc1.218b82c0.jpg"
   },
   {
+    "revision": "2bc88c1418d27947d5d30e7520cb17fd",
+    "url": "/React_business_0/static/media/barber-2507843_1920.2bc88c14.jpg"
+  },
+  {
+    "revision": "ad1d28c039f0a4b779b0564e2765ea2f",
+    "url": "/React_business_0/static/media/hairdresser-1516214_1920.ad1d28c0.jpg"
+  },
+  {
     "revision": "2515efdabc2985a65d8e0dc08232c6b6",
     "url": "/React_business_0/static/media/item1.2515efda.jpg"
   },
@@ -32,16 +40,12 @@ self.__precacheManifest = [
     "url": "/React_business_0/static/media/item2.7c36bcf7.jpg"
   },
   {
-    "revision": "73382eaa4f6dc1b0c285670bfa28e7aa",
-    "url": "/React_business_0/static/media/item3.73382eaa.jpg"
+    "revision": "f5dd595848e7d2668c9d",
+    "url": "/React_business_0/static/js/main.f5dd5958.chunk.js"
   },
   {
-    "revision": "ae570a0d3a23cf8de221019286eaea4d",
-    "url": "/React_business_0/static/media/item4.ae570a0d.jpg"
-  },
-  {
-    "revision": "60e9506df2345e2d27dc",
-    "url": "/React_business_0/static/js/main.60e9506d.chunk.js"
+    "revision": "ffc83c177b435870157e3643d1f58103",
+    "url": "/React_business_0/static/media/item5.ffc83c17.jpg"
   },
   {
     "revision": "31cea9dfb3fe20427f969d9a8214dcd4",
@@ -64,10 +68,6 @@ self.__precacheManifest = [
     "url": "/React_business_0/static/media/photo-1500350124139-04a90e4ce9f6.8a6cdbf2.jpg"
   },
   {
-    "revision": "7af51f4bf5721cc9dfb947fec7743600",
-    "url": "/React_business_0/static/media/photo-1501644898242-cfea317d7faf.7af51f4b.jpg"
-  },
-  {
     "revision": "e899869dca836293001fab7d83bb6fcd",
     "url": "/React_business_0/static/media/photo-1510115950941-b7c06c744133.e899869d.jpg"
   },
@@ -76,7 +76,11 @@ self.__precacheManifest = [
     "url": "/React_business_0/static/media/photo-1523654881152-1f1f16389dc8.b1c76f05.jpg"
   },
   {
-    "revision": "1a77b2eef8c14909c3fb91d8a6a05041",
+    "revision": "52884788fc2acace7406417f9a2bca94",
+    "url": "/React_business_0/static/media/photo-1541705897117-dc56b6637c9e.52884788.jpg"
+  },
+  {
+    "revision": "9b1ac3f953a58ac7880e2b4fe35ad1c8",
     "url": "/React_business_0/index.html"
   }
 ];
