@@ -1,7 +1,7 @@
 {
   "main.css": "/React_business_0/static/css/main.b5dc1c6f.chunk.css",
-  "main.js": "/React_business_0/static/js/main.0c9aa94a.chunk.js",
-  "main.js.map": "/React_business_0/static/js/main.0c9aa94a.chunk.js.map",
+  "main.js": "/React_business_0/static/js/main.c477aa78.chunk.js",
+  "main.js.map": "/React_business_0/static/js/main.c477aa78.chunk.js.map",
   "static/js/1.29b884d0.chunk.js": "/React_business_0/static/js/1.29b884d0.chunk.js",
   "static/js/1.29b884d0.chunk.js.map": "/React_business_0/static/js/1.29b884d0.chunk.js.map",
   "runtime~main.js": "/React_business_0/static/js/runtime~main.2eb819f6.js",
@@ -24,6 +24,6 @@
   "static/media/photo-1541705897117-dc56b6637c9e.jpg": "/React_business_0/static/media/photo-1541705897117-dc56b6637c9e.52884788.jpg",
   "static/css/main.b5dc1c6f.chunk.css.map": "/React_business_0/static/css/main.b5dc1c6f.chunk.css.map",
   "index.html": "/React_business_0/index.html",
-  "precache-manifest.b2fb7441715ab2ef8be20e0593f173cb.js": "/React_business_0/precache-manifest.b2fb7441715ab2ef8be20e0593f173cb.js",
+  "precache-manifest.eef194c5ac5e94b84e1cd9f45552537d.js": "/React_business_0/precache-manifest.eef194c5ac5e94b84e1cd9f45552537d.js",
   "service-worker.js": "/React_business_0/service-worker.js"
 }
