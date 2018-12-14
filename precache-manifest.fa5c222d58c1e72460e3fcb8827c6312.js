@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "73382eaa4f6dc1b0c285670bfa28e7aa",
-    "url": "/React_business_0/static/media/item3.73382eaa.jpg"
+    "revision": "ffc83c177b435870157e3643d1f58103",
+    "url": "/React_business_0/static/media/item5.ffc83c17.jpg"
   },
   {
-    "revision": "c477aa7848aa9fecb611",
-    "url": "/React_business_0/static/css/main.b5dc1c6f.chunk.css"
+    "revision": "6bfeed75a0c769234d24",
+    "url": "/React_business_0/static/css/main.c7f4d654.chunk.css"
   },
   {
-    "revision": "29b884d06b7e02645840",
-    "url": "/React_business_0/static/js/1.29b884d0.chunk.js"
+    "revision": "5ff2ba20ba4848686bf5",
+    "url": "/React_business_0/static/js/1.5ff2ba20.chunk.js"
   },
   {
     "revision": "2eb819f6433d9d34ef24",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/React_business_0/static/media/item2.7c36bcf7.jpg"
   },
   {
-    "revision": "c477aa7848aa9fecb611",
-    "url": "/React_business_0/static/js/main.c477aa78.chunk.js"
+    "revision": "73382eaa4f6dc1b0c285670bfa28e7aa",
+    "url": "/React_business_0/static/media/item3.73382eaa.jpg"
   },
   {
-    "revision": "ffc83c177b435870157e3643d1f58103",
-    "url": "/React_business_0/static/media/item5.ffc83c17.jpg"
+    "revision": "6bfeed75a0c769234d24",
+    "url": "/React_business_0/static/js/main.6bfeed75.chunk.js"
   },
   {
     "revision": "31cea9dfb3fe20427f969d9a8214dcd4",
@@ -72,6 +72,10 @@ self.__precacheManifest = [
     "url": "/React_business_0/static/media/photo-1510115950941-b7c06c744133.e899869d.jpg"
   },
   {
+    "revision": "7343a7d8e8b9f6e964baa890f2c25e27",
+    "url": "/React_business_0/static/media/photo-1516470930795-6ba2564824aa.7343a7d8.jpg"
+  },
+  {
     "revision": "b1c76f05ceab461f6d3a8e67fc411adf",
     "url": "/React_business_0/static/media/photo-1523654881152-1f1f16389dc8.b1c76f05.jpg"
   },
@@ -80,7 +84,7 @@ self.__precacheManifest = [
     "url": "/React_business_0/static/media/photo-1541705897117-dc56b6637c9e.52884788.jpg"
   },
   {
-    "revision": "879009b38f23ed0d520f2438b4f5829c",
+    "revision": "7949d2166e7bdb511920740318a9166a",
     "url": "/React_business_0/index.html"
   }
 ];
