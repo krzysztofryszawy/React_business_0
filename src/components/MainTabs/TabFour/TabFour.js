@@ -12,7 +12,7 @@ import Divider from '../../Divider/Divider'
 import ImageLeft from '../../ImageLeft/ImageLeft'
 import ImageRight from '../../ImageRight/ImageRight'
 import FullHeight from '../../FullHeight/FullHeight'
-
+import Decor from '../../Decor/Decor'
 
 const styles = theme => ({
   root: {
@@ -55,11 +55,13 @@ const TabFour = (props) => {
         topic={'Leia Organa - Master Stylist and Owner'}>
           Raised and educated in England. Trained in London and New York with Vidal Sassoon, Toni & Guy and Chris Sorby amongst others. Certified 
       </ImageLeft>
+      <Decor/>
       <ImageRight 
         img={'barber-2507843_1920'} 
         topic={'Anakin Skywalker - Senior Hair Stylist'}>
           With over 2 decades of experience as a master stylist, Toni & Guy and Vidal Sassoon trained, Randy is an extremely versatile and talented artist. 
       </ImageRight>
+      <Decor/>
       <ImageLeft 
         img={'photo-1541705897117-dc56b6637c9e'} 
         topic={'Boba Fett - Junior Hair Stylist'}>

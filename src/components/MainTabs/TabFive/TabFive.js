@@ -11,7 +11,7 @@ import PhoneCallback from '@material-ui/icons/PhoneCallback';
 import Divider from '../../Divider/Divider'
 import ImageLeft from '../../ImageLeft/ImageLeft'
 import ImageRight from '../../ImageRight/ImageRight'
-import FullHeight from '../../FullHeight/FullHeight'
+import Decor from '../../Decor/Decor'
 
 
 const styles = theme => ({
@@ -37,28 +37,19 @@ const TabFive = (props) => {
 
   return (
     <React.Fragment>
-      <div className={classes.root}>
-        <Grid container direction="row" justify="space-between" alignItems="stretch" spacing={24}>
-          <Grid className={classes.item} item xs={10} >
-            <PhoneCallback style={{ fontSize: 50, color: '#8b783f' }}/>
-            <Typography variant="h5" component="h3">
-            Come in and treat yourself to any service and leave feeling refreshed and beautiful.
-            </Typography>
-            <Typography component="p">
-            Salon is located on one of Krakows’s most picturesque street’s, Grodzka Street.  Which is minutes from the famous Five Ways and The Intersection. 
-            </Typography>
-          </Grid>
 
-        </Grid>
-      </div>
-      <Divider/>
-      <ImageLeft 
-        img={'photo-1510115950941-b7c06c744133'} 
-        topic={'A visit to CASSIOPEIA is more than getting your hair done.  Our clients are offered a selection of organic tea served from a fine china tea cup, flute of champagne or a signature CASSIOPEIA After Five cocktail to indulge while being pampered.'}>
+      <ImageRight 
+        img={'photo-1516470930795-6ba2564824aa'} 
+        topic={'Come in and treat yourself to any service and leave feeling refreshed and beautiful.'}>
           Grodzka 104, Kraków
           Tel: (12)293 60 48
           SALON HOURS
-          Tues & Thurs 10 am - 5 pm | Wed & Fri 10 am - 8 pm |  Saturday 9 am - 4 pm
+          Tues & Thurs 10 am - 5 pm | Wed & Fri 10 am - 8 pm |  Saturday 9 am - 4 pm 
+      </ImageRight>
+      <Decor/>
+      <ImageLeft 
+        img={'photo-1510115950941-b7c06c744133'} 
+        topic={'A visit to CASSIOPEIA is more than getting your hair done.  Our clients are offered a selection of organic tea served from a fine china tea cup, flute of champagne or a signature CASSIOPEIA After Five cocktail to indulge while being pampered.'}>
       </ImageLeft>
 
     </React.Fragment>

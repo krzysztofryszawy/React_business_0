@@ -64,7 +64,7 @@ const TabOne = (props) => {
               Who We Are
             </Typography>
             <Typography component="p">
-              A Full-Service Beauty Salon, Here for You At Cassiopeia SALOON & SPA, your satisfaction is our number one priority. For over 30 years, we’ve provided the city of Kraków with a wide range of quality personalized Beauty Salon services that are catered specifically to your needs. We are fueled by the desire to have you feeling and looking great. Swing by to start looking and feeling amazing!
+              A Full-Service Beauty Salon, Here for You At Cassiopeia SALOON & SPA, your satisfaction is our number one priority. For over 30 years, we’ve provided the city of Kraków with a wide range of quality personalized Beauty Salon services that are catered specifically to your needs.
               </Typography>
           </Grid>
 

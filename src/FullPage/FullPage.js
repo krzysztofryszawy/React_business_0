@@ -12,8 +12,8 @@ import Footer from '../components/Footer/Footer'
 import NavBar from '../components/NavBar/NavBar'
 import Quotation from '../components/Quotation/Quotation'
 
-// '#b89a6a'
-
+// #b89a6a
+// #8b783f
 class FullPage extends Component {
 
 

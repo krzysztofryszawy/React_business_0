@@ -7,17 +7,17 @@ import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 const styles = theme => ({
-    html: {
-      [theme.breakpoints.up("xs")]: {
-        fontSize: 12,
-      },
-      [theme.breakpoints.up("sm")]: {
-        fontSize: 14
-      },
-      [theme.breakpoints.up("md")]: {
-        fontSize: 16
-      }
+  wrapper: {
+    [theme.breakpoints.up("xs")]: {
+      fontSize: '.8rem',
     },
+    [theme.breakpoints.down("sm")]: {
+      fontSize: '1rem'
+    },
+    [theme.breakpoints.up("md")]: {
+      fontSize: '2.5rem'
+    },
+  },
   root: {
     flexGrow: 1,
     height: '100vh',
@@ -25,11 +25,13 @@ const styles = theme => ({
   },
   item: {
     backgroundColor: 'white',
+    transition: 'all 1.3s ease-out',
+    color: theme.palette.text.primary,
     padding: theme.spacing.unit * 2,
     marginTop: theme.spacing.unit * 10,
     opacity: '.8',
     '&:hover': {
-      backgroundColor: 'lavenderblush', 
+      color: '#8b783f',
     },
   }
 });
@@ -38,22 +40,22 @@ const Header = (props) => {
   const { classes } = props;
 
   return (
-    <React.Fragment>
-    <div className={classes.root}>
-      <Grid container direction="row" justify="center" alignItems="center">
-        <Grid item sm={12}>
-          <div className={classes.item}>
-            <Typography variant="h2" component="h2">
-              CASSIOPEIA SALON & SPA
-            </Typography>
-            <Typography variant="h5" component="h5">
-              Where the ART of color is the ultimate expression!
-            </Typography>
-          </div>
+    <div className={classes.wrapper}>
+      <div className={classes.root}>
+        <Grid container direction="row" justify="center" alignItems="center">
+          <Grid item xs={12}>
+            <div className={classes.item}>
+              <h1>
+                CASSIOPEIA SALON & SPA
+              </h1>
+              <h4>
+                Where the ART of color is the ultimate expression!
+              </h4>
+            </div>
+          </Grid>
         </Grid>
-      </Grid>
+      </div>
     </div>
-    </React.Fragment>
   );
 }
 
