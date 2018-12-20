@@ -1,19 +1,8 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import { Route, Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import { withStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
-import Button from '@material-ui/core/Button';
-
-
-
-
-
 
 
 const styles = theme => ({
@@ -21,13 +10,12 @@ const styles = theme => ({
     flexGrow: 1,
     width: '100%',
     backgroundColor: 'whitesmoke',
-    zIndex: '666',
+    zIndex: '99999',
     overflow: 'hidden',
     position: 'absolute',
     display: 'flex',
     justifyContent: 'flex-start',
     alignItems: 'stretch',
-    
   },
   activeLink: {
     backgroundColor: '#8b783f',
@@ -61,8 +49,8 @@ class NavBar extends React.Component {
   handleScroll = () => {
     this.setState({fixed: false})
     let offset = ReactDOM.findDOMNode(this).getBoundingClientRect()
-    let winScrollY = window.scrollY
-    var intViewportHeight = window.innerHeight;
+    // let winScrollY = window.scrollY
+    // var intViewportHeight = window.innerHeight;
 
 
     // console.log(this.state.fixed)

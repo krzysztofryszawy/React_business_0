@@ -3,7 +3,6 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
-// import BackgroundPhoto from "../../assets/images/item4.jpg"
 
 
 
@@ -11,8 +10,6 @@ const styles = theme => ({
   root: {
     flexGrow: 1,
     backgroundColor: 'whitesmoke',
-
-    // padding: theme.spacing.unit * 3,
   },
   item: {
     padding: theme.spacing.unit * 5,
@@ -43,8 +40,7 @@ const WallpaperLeftOne = (props) => {
           <div className={classes.item}>
             <Typography variant="h5" component="h5">
             All types of haircuts and styles for all hair types using the most current cut and style techniques.
-            </Typography>
-            
+            </Typography>            
             <Typography component="h6" variant="body1" gutterBottom>
               <ul>
                 <li>HAIRCUTS</li>

@@ -2,9 +2,6 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
-import Chip from '@material-ui/core/Chip';
-import Avatar from '@material-ui/core/Avatar';
 import Spa from '@material-ui/icons/Spa';
 import LocationCity from '@material-ui/icons/LocationCity';
 import Group from '@material-ui/icons/Group';
@@ -27,7 +24,6 @@ const styles = theme => ({
       },
   },
   item: {
-    // padding: theme.spacing.unit * 2,
     margin: theme.spacing.unit * 2,
   }
 });
@@ -47,7 +43,6 @@ const TabOne = (props) => {
               Looking for a beauty salon which provides you expert hair and beauty services at reasonable prices in a highly pampering ambiance? Experience the difference at Cassiopeia SALOON & SPA. Our professional team is committed to providing you with expert, personalized attention from head to toe. 
               </Typography>
           </Grid>
-
           <Grid className={classes.item} item sm={3} xs={12}>
             <Spa style={{ fontSize: 50, color: '#8b783f' }}/>
             <Typography variant="h5" component="h3">
@@ -57,7 +52,6 @@ const TabOne = (props) => {
               Then check into Cassiopeia SALOON & SPA, one of the most preferred salons for both men and women in Kraków. Get a refreshing image makeover from our beauty experts and feel the difference today!
             </Typography>
           </Grid>
-          
           <Grid className={classes.item} item sm={3} xs={12}>
             <LocationCity style={{ fontSize: 50, color: '#8b783f' }}/>
             <Typography variant="h5" component="h3">
@@ -67,7 +61,6 @@ const TabOne = (props) => {
               A Full-Service Beauty Salon, Here for You At Cassiopeia SALOON & SPA, your satisfaction is our number one priority. For over 30 years, we’ve provided the city of Kraków with a wide range of quality personalized Beauty Salon services that are catered specifically to your needs.
               </Typography>
           </Grid>
-
           <Grid className={classes.item} item sm={3} xs={12}>
             <Group style={{ fontSize: 50, color: '#8b783f' }}/>
             <Typography variant="h5" component="h3">

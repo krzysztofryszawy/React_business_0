@@ -2,15 +2,10 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import BackgroundHeader from "../../assets/images/photo-1521590832167-7bcbfaa6381f.jpg"
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import CssBaseline from '@material-ui/core/CssBaseline';
+
 
 const styles = theme => ({
   wrapper: {
-    [theme.breakpoints.up("xs")]: {
-      fontSize: '.8rem',
-    },
     [theme.breakpoints.down("sm")]: {
       fontSize: '1rem'
     },
@@ -25,7 +20,7 @@ const styles = theme => ({
   },
   item: {
     backgroundColor: 'white',
-    transition: 'all 1.3s ease-out',
+    transition: 'color 1.3s ease-out',
     color: theme.palette.text.primary,
     padding: theme.spacing.unit * 2,
     marginTop: theme.spacing.unit * 10,

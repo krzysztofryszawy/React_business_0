@@ -2,13 +2,7 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
-import Chip from '@material-ui/core/Chip';
-import Avatar from '@material-ui/core/Avatar';
 import Spa from '@material-ui/icons/Spa';
-import LocationCity from '@material-ui/icons/LocationCity';
-import Group from '@material-ui/icons/Group';
-import Divider from '../../Divider/Divider'
 import ImageLeft from '../../ImageLeft/ImageLeft'
 import ImageRight from '../../ImageRight/ImageRight'
 import FullHeight from '../../FullHeight/FullHeight'
@@ -27,7 +21,6 @@ const styles = theme => ({
     },
   },
   item: {
-    // padding: theme.spacing.unit * 2,
     margin: theme.spacing.unit * 2,
   }
 });
@@ -59,7 +52,7 @@ const TabFour = (props) => {
       <ImageRight 
         img={'barber-2507843_1920'} 
         topic={'Anakin Skywalker - Senior Hair Stylist'}>
-          With over 2 decades of experience as a master stylist, Toni & Guy and Vidal Sassoon trained, Randy is an extremely versatile and talented artist. 
+          With over 2 decades of experience as a master stylist, Toni & Guy and Vidal Sassoon trained, Anakin is an extremely versatile and talented artist. 
       </ImageRight>
       <Decor/>
       <ImageLeft 

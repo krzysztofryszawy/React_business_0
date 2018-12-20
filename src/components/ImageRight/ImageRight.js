@@ -2,7 +2,6 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
 
 const styles = theme => ({
   root: {
@@ -36,7 +35,7 @@ const ImageRight = (props) => {
             </Typography>
           </div>
         </Grid>
-        <Grid item sm={4} xs={12} >
+        <Grid item xs={12} sm={6} md={4}  >
           <img style={{maxWidth: '100%'}} src={require(`../../assets/images/${props.img.toLowerCase()}.jpg`)} alt=""/>
         </Grid>
       </Grid>
